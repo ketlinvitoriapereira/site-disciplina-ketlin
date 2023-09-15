@@ -1,6 +1,16 @@
 *{
-  margin; 0;
-  padding; 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
 .cabecalho {
   background-color: #E1AEDC;
   color: white;
@@ -9,51 +19,60 @@
   padding: 24px 0;
 }
 
-.cabecalho-imagem {
+
+.cabecalho-imagem{
   width: 10%;
 }
 
-.cabecalho-lista-item {
-  display: inline-block;
+
+.cabecalho-lista-item{
+   display: inline-block;
   margin: 0 16px;
   font-size: 24px;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
+
+.escola-imagem{
+  width: 25%;
 }
 
-.caderno-png {
-  width: 120px;
-}
 
-.escola-imagem {
-  width: 24%;
+.escola{
+  background-image: linear-gradient(#BC3FBE, #DD72DF);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
 }
-
-.escola-div-conteudo {
+.escola-div-conteudo{
   width: 35%;
 }
-
-.centrar-conteudo {
-  text-align: center;
-}
-
-.escola-titulo {
+.escola-titulo{
   padding: 44px 0;
 }
 
-.estudante-div {
-  background-color: #e0ace0;
-  text-align: center;
+
+.estudante-imagem{
+width: 120px;
 }
 
-.estudante-titulo {
+
+.estudante-div{
+  background-color:#DC77DE;
+  text-align:center;
+}
+
+
+.estudante-titulo{
   text-align: center;
   padding: 50px;
 }
+.biotecnologia{
+  background-color: black;
+}
 
-.rodape {
-  background-color: #969496;
-  text-align: center;
+.rodape{
+  background-color: #E1AEDC;
+  text-align: center; 
 }
